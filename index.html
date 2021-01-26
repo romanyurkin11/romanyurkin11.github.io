@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Amazing project</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="first">
+        <div class="container">
+            <div class="header">
+                <img src="img/logo.png" class="logo_image" alt="Logo">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="first-section__content">
+                <h1>Amazing Dude. <br> Amazing Life.</h1>
+                <p>Welcome to the personal site of <span>John Doe</span>.<br>
+                    A professional skier and a musician.</p>
+            </div>
+        </div>
+    </section>
+    <section id="second">
+        <div class="second-section__left">
+            <img src="img/second_section.png" alt="">
+        </div>
+        <div class="second-section__right">
+            <div class="second-section__content">
+                <h1>Sed faucibus quis</h1>
+                <p>Fusce bibendum luctus massa, <br>
+                    ut tincidunt lectus tincidunt in. <br>
+                    Nulla tristique ipsum vitae lacus <br>
+                    ullamcorper, at dictum nunc <br>
+                    scelerisque.</p>
+            </div>
+        </div>
+    </section>
+    <section id="third">
+        <div class="third_section_item third_section_item_1">
+
+        </div>
+        <div class="third_section_item third_section_item_2">
+
+        </div>
+        <div class="third_section_item third_section_item_3">
+
+        </div>
+        <div class="third_section_item third_section_item_4">
+
+        </div>
+    </section>
+    <section id="third_mobile">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img class="slider_photo" src="/img/photo_1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="slider_photo" src="/img/photo_2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="slider_photo" src="/img/photo_3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img class="slider_photo" src="/img/photo_4.jpg" alt="">
+                </div>
+            </div>
+            <div class="swiper-button-next" style="color: white;"></div>
+            <div class="swiper-button-prev" style="color: white;"></div>
+        </div>
+    </section>
+    <section id="fourth">
+        <div class="container">
+            <div class="fourth_left">
+                <h1>INSTAGRAM</h1>
+                <p>Etiam lacus dolor, tincidunt vitae <br>
+                    nisi in, vulputate placerat odio. <br>
+                    Pellentesque iaculis.</p>
+                <button>VIEW ON INSTAGRAM</button>
+            </div>
+            <div class="fourth_right">
+                <img src="/img/fourth_section.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- SCRIPTS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+
+
+
+</body>
+
+</html>
